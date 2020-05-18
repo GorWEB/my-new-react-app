@@ -1,0 +1,38 @@
+.header{
+    grid-area: h;
+    background-color: #10151a;
+}
+.header img{
+    height: 70px;
+}
+
+.header{
+    color: white;
+}
+.loginBlock{
+    float: right;
+}
+.loginBlock a {
+    color: white;
+    float: bottom;
+    position: fixed;
+}
+.loginBlock a:hover {
+    cursor: pointer;
+}
+.userAvatarImage{
+    float: left;
+    margin-left: -80px;
+    margin-top: -40px;
+    position: fixed;
+}
+.userAvatarImage img{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+}
+.iconImage{
+    height: 70px;
+    width: 90px;
+    margin-left: 0;
+}

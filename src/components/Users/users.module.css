@@ -1,0 +1,13 @@
+.photoUser{
+    height: 50px;
+}
+
+.preloader {
+    width: 100px;
+}
+.userBlock{
+    border: 2px solid #61dafb;
+}
+.preloaderDiv{
+    margin: 0 auto;
+}

@@ -1,0 +1,87 @@
+.nav{
+    grid-area: n;
+    background-color: #30303d;
+    padding: 15px;
+}
+ /*#1890ff*/
+.item a{
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.item a.activeLink {
+    color: slategray;
+    border-left: 2px solid black;
+}
+
+.item {
+    transition: 0.4s;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 10px;
+    margin: 10px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.item:hover {
+    background-color: #ffffff;
+    color: #EEA200;
+    padding: 24px 10px;
+}
+.friendsBlock{
+    display: grid;
+    grid-template-rows: 2fr;
+    grid-template-columns: repeat(3,1fr);
+    box-sizing: border-box;
+}
+
+.friendItem{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: black;
+    grid-row: 3;
+    box-sizing: border-box;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    margin-right: 0;
+    cursor: pointer;
+    text-align: center;
+}
+.friendHead{
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.friendHead p{
+    color: black;
+    text-align: center;
+}
+.friendName{
+    color: black;
+}
+.friendItem img{
+    width: 40px;
+    height: 40px;
+}
+.itemBlock{
+    display: inline-flex;
+    margin-top: 50px;
+    margin-left: -65px;
+}
+
+
+
+

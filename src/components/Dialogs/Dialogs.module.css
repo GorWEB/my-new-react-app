@@ -1,0 +1,59 @@
+.dialogs{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.dialog{
+    display: grid;
+    grid-template-rows: 2fr;
+    grid-template-columns: 2fr 10fr ;
+}
+.active{
+    color: gold;
+}
+.messages{
+    padding: 10px;
+}
+.dialogsItems a{
+     color: black;
+     text-decoration: none;
+ }
+
+.dialogsItem {
+    transition: 0.4s;
+    text-decoration: none;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 15px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.dialogsItem:hover {
+    cursor: pointer;
+    background-color: #cecece;
+}
+.textDiv{
+    margin-bottom: 0;
+    float: left;
+}
+.sendMsgBtn{
+    background:#6294c2;
+    padding: 15px;
+    border-radius:2px;
+    cursor: pointer;
+}
+.messageArea{
+    float: right;
+    resize: none;
+    width: 600px;
+    height: 40px;
+}
+.msgBtnArea{
+   margin-left: 0;
+}
